@@ -486,7 +486,7 @@ namespace NES_Online_Game_Injector
                 Directory.CreateDirectory("NES_ONLINE_Mod/titles/0100D870045B6000/romfs/titles");
                 Directory.CreateDirectory("NES_ONLINE_Mod/titles/0100D870045B6000/romfs/titles/HLV-P-N" + GamecodeTextbox.Text);
 
-E                Directory.CreateDirectory("temp");
+                Directory.CreateDirectory("temp");
 
                 string FileFormat1 = @Coverpath1Textbox.Text;
                 string tga0 = Path.GetExtension(FileFormat1);
